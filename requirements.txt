@@ -3,4 +3,4 @@ gspread
 fpdf
 google-api-python-client
 networkx
-graphic
+graphviz
