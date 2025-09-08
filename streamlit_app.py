@@ -547,12 +547,12 @@ def validate_coloring(graph_data):
 
     return True, "Graph coloring is valid!"
 
-if graph_result:
-    valid, message = validate_coloring(graph_result)
-    if valid:
-        st.success(message)
-    else:
-        st.error(message)
+# if graph_result:
+#     valid, message = validate_coloring(graph_result)
+#     if valid:
+#         st.success(message)
+#     else:
+#         st.error(message)
 
 def grade_coloring():
     if graph_result:
@@ -795,3 +795,4 @@ if st.button("Submit Test"):
                 file_name=os.path.basename(json_path),
                 mime="application/json"
             )
+
