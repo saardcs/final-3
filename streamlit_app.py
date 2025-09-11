@@ -360,16 +360,16 @@ with cols[3]:
     st.write("Dog")
     st.write("Mammals")
 
-    canvas_result = st_canvas(
-        fill_color="rgba(255, 255, 255, 1)",  # White background
-        stroke_width=3,
-        stroke_color="black",
-        background_color="white",
-        height=600,
-        width=700,
-        drawing_mode="freedraw",  # or "line", "rect", "circle", "transform"
-        key="canvas",
-    )
+canvas_result = st_canvas(
+    fill_color="rgba(255, 255, 255, 1)",  # White background
+    stroke_width=3,
+    stroke_color="black",
+    background_color="white",
+    height=600,
+    width=700,
+    drawing_mode="freedraw",  # or "line", "rect", "circle", "transform"
+    key="canvas",
+)
 
 st.write("18. List the **edges** of your tree (e.g. Animals - Mammals).")
 
