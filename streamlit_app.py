@@ -345,7 +345,7 @@ import graphviz
 
 st.write("")
 st.write("")
-st.write("**Instruction:** Create a tree diagram about **Animals** in the space below using the nodes given. Then answer the questions.")
+st.write("**Instruction:** Draw a tree diagram about **Animals** in the space below using the nodes given. Then answer the questions.")
 cols = st.columns([1,1,1,1])
 with cols[0]:
     st.write("**Nodes:**")
